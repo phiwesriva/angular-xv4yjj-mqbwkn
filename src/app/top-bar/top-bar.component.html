@@ -4,7 +4,22 @@
 
   <h1>Mokgabi </h1>
 </a>
-<a class="button fancy-button"><i class="material-icons">menu</i></a>
+
+<ul class="topnav" id="u01">
+          <li class="dropdown">
+          <a href="javascript:void(0)" class="button fancy-button"><i class="material-icons">menu</i></a>
+      <div class="dropdown-content">
+        <a [routerLink]="['/services']"><label>Services</label></a>
+        <a [routerLink]="['/project']"><label>Current Projects</label></a>
+        <a [routerLink]="['/previous']"><label>Previous Projects</label></a>
+        <a [routerLink]="['/social']"><label>Social</label></a>
+        <a [routerLink]="['/about']"><label>About Us</label></a>
+        <a [routerLink]="['/contact']"><label>Contact Us</label></a>
+                  </div>
+            </li>
+          </ul>
+
+<!--<a class="button fancy-button"><i class="material-icons">menu</i></a>>
 
 
 <!--<a class="button fancy-button"><i class="material-icons">shopping_cart</i>Checkout</a>-->

@@ -33,7 +33,7 @@ import { PrivpolComponent } from './privpol/privpol.component';
       { path: 'tandc', component: TandcComponent },
       
       /*{ path: 'search', component: SearchComponent },
-      { path: 'hero-search', component: HeroSearchComponent }*/,
+      { path: 'hero-search', component: HeroSearchComponent },*/
     ])
   ],
   declarations: [
