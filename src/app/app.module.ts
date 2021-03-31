@@ -13,6 +13,9 @@ import { ProjectComponent } from './project/project.component';
 import { PreviousComponent } from './previous/previous.component';
 import { SocialComponent } from './social/social.component';
 import { FooterComponent } from './footer/footer.component';
+import { TandcComponent } from './tandc/tandc.component';
+import { PrivpolComponent } from './privpol/privpol.component';
+
 
 @NgModule({
   imports: [
@@ -32,7 +35,10 @@ import { FooterComponent } from './footer/footer.component';
     ProjectComponent,
     PreviousComponent,
     SocialComponent,
-    FooterComponent
+    FooterComponent,
+    TandcComponent,
+    PrivpolComponent,
+    
   ],
   bootstrap: [ AppComponent ]
 })
