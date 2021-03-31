@@ -23,6 +23,17 @@ import { PrivpolComponent } from './privpol/privpol.component';
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
+      { path: 'about', component: AboutComponent },
+      { path: 'contact', component: ContactComponent },
+      { path: 'previous', component: PreviousComponent },
+      { path: 'privpol', component: PrivpolComponent },
+      { path: 'project', component: ProjectComponent },
+      { path: 'services', component: ServicesComponent },
+      { path: 'social', component: SocialComponent },
+      { path: 'tandc', component: TandcComponent },
+      
+      /*{ path: 'search', component: SearchComponent },
+      { path: 'hero-search', component: HeroSearchComponent }*/,
     ])
   ],
   declarations: [
