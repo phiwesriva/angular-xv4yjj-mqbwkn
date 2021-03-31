@@ -122,6 +122,17 @@ app-top-bar h1 {
   margin: 0;
 }
 
+#t02, td {
+  width: 100%;
+  /*background-color: #f1f1c1;*/
+}
+
+#t03, td {
+  width: 100%;
+  text-align: center;
+/*  background-color: #f1f1c1;*/
+}
+
 /* Checkout Cart, Shipping Prices */
 
 .cart-item, .shipping-item {
